@@ -1,0 +1,759 @@
+body,button {
+    font-family: Vazirmatn;
+    direction: rtl;
+    font-size: 12px;
+
+}
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+}
+
+.iconsbutton {
+    display: flex;
+    align-items: center;
+
+}
+
+.search {
+    transform: scaleX(-1) scale(1.5);
+    color: rgb(202, 202, 202);
+}
+
+.search:hover {
+    color: red;
+}
+
+.phone {
+    transform: scale(1.5);
+    color: rgb(202, 202, 202);
+}
+
+.phone:hover {
+    color: red;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+#navbutton {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+#navbutton a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#navbutton a:hover {
+    color: red;
+}
+
+#internetbank {
+
+    background-color: red;
+
+
+}
+
+#internetbank a {
+    text-decoration: none;
+    padding: 15px 15px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#internetbank:hover {
+    background-color: rgb(95, 15, 138);
+}
+
+nav img {
+    padding: 15px;
+}
+
+nav div {
+    padding: 10px 10px;
+    margin: 2px;
+
+}
+
+#language {
+    padding: 3px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+#language>a {
+
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+}
+
+#language a:hover {
+    color: red;
+}
+
+section div {
+    background-image: url(images/1650529294720k7ehi9gqjp2vvuiq1t9aff691d.jpg);
+    background-repeat: no-repeat;
+    padding: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    background-color: rgb(78, 0, 121);
+    border-bottom: 8px solid red;
+}
+
+
+
+article {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+}
+
+.right {
+
+    margin-top: 40px;
+    background-color: rgba(113, 38, 183, 0);
+}
+
+#flexButton {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+#flexButton div:hover {
+    background-color: aliceblue;
+
+}
+
+#flexButton a:hover {
+    color: red;
+}
+
+#button {
+    background-color: red;
+    float: left;
+    color: white;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+#button a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 10px;
+
+}
+
+.button {
+    margin-top: 30px;
+    background-color: white;
+
+}
+
+.button img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+button {
+    width: 170px;
+    height: 15%;
+    margin: 3px;
+    background-color: rgb(228, 228, 228);
+    border: none;
+    border-radius: 3%;
+    text-align: right;
+}
+
+button a {
+    text-decoration: none;
+    margin-right: 5%;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button p {
+    margin-right: 5%;
+}
+
+button a:hover {
+    color: red;
+}
+
+.di {
+    background-color: rgb(78, 19, 120);
+    color: aliceblue;
+    padding: 35px 5px;
+    border-radius: 6px;
+}
+
+.di div,
+h2 {
+    margin-top: 0.5px;
+    margin-right: 20px;
+}
+
+.middle {
+    margin-right: 20px;
+    margin-top: 55px;
+}
+
+.middle img {
+    scale: 0.85;
+}
+.middle a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.middle a:hover {
+    color: red;
+}
+
+.middle div {
+    display: flex;
+    padding: 5px 12px;
+    border-bottom: 1px solid black;
+}
+
+.middle div div {
+    display: flex;
+    line-height: 0.5px;
+    flex-direction: column;
+    border: none;
+    color: rgb(138, 138, 138);
+    font-size: 11px;
+}
+
+
+.left {
+    margin-top: 55px;
+    margin-right: 5px;
+}
+
+.left img {
+    scale: 0.85;
+}
+.left a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.left a:hover{
+    color: red;
+}   
+.left div {
+    display: flex;
+    padding: 5px 12px;
+    border-bottom: 1px solid black;
+}
+
+.left div div {
+    display: flex;
+    line-height: 0.5px;
+    flex-direction: column;
+    border: none;
+    color: rgb(138, 138, 138);
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+aside {
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 30px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(247, 247, 247);
+}
+
+.اخبار {
+    color: rgb(255, 0, 0);
+    font-size: medium;
+    font-weight: bold;
+    margin: 25px;
+}
+
+.متن {
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid rgb(202, 202, 202);
+    border-bottom: 2px solid rgb(202, 202, 202);
+}
+
+.calumn {
+    margin: 20px;
+    text-align: start;
+    margin-left: 95px;
+    border-left: 2px solid rgb(202, 202, 202);
+
+}
+
+.calumn a {
+    text-decoration: none;
+    color: rgb(0, 98, 255);
+}
+
+.calumn a:hover {
+    color: red;
+}
+
+#arshiv {
+    float: left;
+    margin-top: 70px;
+}
+
+#arshiv a {
+    background-color: rgb(73, 22, 121);
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 30px;
+}
+
+#arshiv a:hover {
+    background-color: rgb(213, 0, 0);
+}
+
+h3 {
+    color: rgb(49, 6, 140);
+}
+
+.متن div {
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.leftghabar {
+    padding: 15px;
+    margin-top: -1px;
+}
+
+.leftghabar div {
+    margin-left: 50px;
+    margin-bottom: -2px;
+}
+
+.leftghabar i {
+    color: red;
+}
+
+.picture {
+    display: flex;
+    justify-items: center;
+    margin-top: 30px;
+}
+.picture a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.picture img {
+    margin: 5px;
+}
+
+.picture div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+#paragraph {
+    margin-bottom: -10px;
+}
+
+.underh4 {
+    margin-right: 20px;
+}
+
+h4 {
+    font-size: 15px;
+    margin-right: 20px;
+    margin-bottom: -0.5px;
+}
+
+
+
+
+
+
+
+
+.گرومالی {
+    text-align: center;
+    padding: 50px;
+    margin: 5px;
+}
+
+.part3 {
+    display: flex;
+    justify-content: center;
+}
+
+.part3 a {
+    text-decoration: none;
+}
+
+.part3 div {
+    margin: 20px;
+}
+
+.ستونی {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+.top {
+    text-align: right;
+    padding: 10px 20px;
+    border-left: 2px solid rgb(216, 216, 216);
+}
+
+.leftchin {
+    display: flex;
+}
+
+.leftchin i {
+    scale: 5;
+    color: rgb(196, 196, 196);
+}
+
+.bordertop {
+    padding-top: 30px;
+    border-top: 2px solid rgb(213, 213, 213);
+
+}
+
+.bordertop p {
+    color: rgb(128, 128, 128);
+}
+
+#topparagraph {
+    margin-bottom: -5px;
+}
+
+.button2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.button2 a {
+    background-color: rgb(94, 28, 156);
+    color: aliceblue;
+    padding: 15px;
+}
+
+.button2 a:hover {
+    background-color: red;
+}
+
+.icons {
+    padding-top: 50px;
+    margin: 50px;
+    text-align: center;
+
+}
+
+.icons a {
+    margin: 3px;
+
+}
+
+
+
+
+
+
+
+
+footer {
+    font-size: 11px;
+    background-color: rgb(219, 219, 219);
+}
+
+.footerTop {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    margin-right: 8%;
+    color: rgb(129, 129, 129);
+}
+
+#rightfooter i {
+    scale: 4;
+    margin-top: 30px;
+    color: rgb(188, 188, 188);
+}
+
+#header {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#rightfooter {
+    display: flex;
+    flex: 40%;
+}
+
+#middelfooter {
+    flex: 35%;
+    display: flex;
+}
+
+#middelfooter i {
+    scale: 3;
+    margin-top: 15px;
+    color: rgb(188, 188, 188);
+}
+#leftfooter {
+    flex: 40%;
+    display: flex;
+    line-height: 1.5;
+}
+
+#rightfooter div {
+    margin: 5px;
+    padding: 5px;
+}
+
+#rightfooter div p {
+    line-height: 1;
+}
+
+#middelfooter div {
+
+    margin: 5px;
+    padding: 1px;
+}
+
+#leftfooter li {
+    padding: 5px;
+}
+
+#leftfooter a {
+    color: rgb(129, 129, 129);
+    text-decoration: none;
+}
+
+.footerBottom {
+    line-height: 0.75;
+    background-color: rgb(66, 16, 81);
+    color: aliceblue;
+    padding: 5px;
+}
+
+.footerBottom p {
+    margin-right: 20%;
+}
+
+#leftfooter a:hover {
+    color: rgb(71, 15, 123);
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        background-color: rgba(222, 201, 241, 0.652);
+        ;
+    }
+
+    .navdiv {
+        background-color: rgba(240, 248, 255, 0);
+    }
+
+    nav div {
+        display: none;
+    }
+
+    section div {
+        height: 150px;
+        padding: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    Button {
+        width: auto;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+    Button div{
+        line-height: 1;
+        margin-top: 20px;
+        margin-right: 20px;
+       }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .left div {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .calumn,
+    #عکس {
+        display: none;
+    }
+
+    aside {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .picture {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .part3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftchin {
+        display: flex;
+        justify-content: center;
+    }
+    .footerTop{
+        display: flex;
+        flex-direction: column;
+        float: right;
+    }
+    .footerBottom{
+        clear: both;
+    }
+    .گرومالی{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    nav {
+        background-color: rgba(222, 201, 241, 0.652);
+        ;
+    }
+
+    .navdiv {
+        background-color: rgba(240, 248, 255, 0);
+    }
+
+    nav div {
+        flex-shrink: 5px;
+    }
+
+    section div {
+        height: 80px;
+        padding: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    Button {
+        width: auto;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+   Button div{
+    line-height: 1;
+    margin-top: 20px;
+    margin-right: 20px;
+   }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .left div {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .calumn,
+    #عکس {
+        display: none;
+    }
+
+    aside {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .picture {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .part3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftchin {
+        display: flex;
+        justify-content: center;
+    }
+
+}
